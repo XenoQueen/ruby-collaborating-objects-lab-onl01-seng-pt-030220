@@ -13,9 +13,9 @@ class Song
     @@all
   end
 
-  def artist_name
-    artist.name if artist
-  end
+  #def artist_name
+    #artist.name if artist
+  #end
 
   def self.new_by_filename(file)
     name = file.gsub(".mp3","").split(" - ")
